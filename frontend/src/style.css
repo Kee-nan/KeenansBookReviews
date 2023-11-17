@@ -1,0 +1,104 @@
+body {
+  margin-top: 200px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5dc; /* Muted cream color */
+}
+
+.header {
+  height: 120px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(162, 110, 211);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  border-bottom: 3px solid rgb(60, 41, 78);
+}
+
+.header h1 {
+  margin-left: 10px;
+  color: #fff; 
+  display: flex;
+  align-items: center;
+}
+
+.addButton{
+  border: none;
+  padding: 10px;
+  background-color: plum;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: rgb(60, 41, 78) ;
+  margin-right: 20px;
+}
+  
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px;
+  border-color: black;
+}
+
+.book {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  border: 5px;
+  border-color: black;
+}
+
+img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border: 5px;
+  background-color: turquoise;
+}
+
+.delete,
+.update {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.delete {
+  border: 1px solid rgb(236, 154, 139);
+  color: rgb(224, 64, 35);
+}
+
+.update {
+  border: 1px solid rgb(159, 184, 250);
+  color: rgb(71, 155, 233);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.formButton {
+  border: none;
+  padding: 10px;
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
